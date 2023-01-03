@@ -11,7 +11,11 @@
 
 const num = [7, 6, 6, 4, 7, 9, 7, 6, 4];
 
-for (i = 0; i < num.lenght; i++) {
-    
+let somaDosNum = 0;
+
+for (let total of num) {
+    somaDosNum += num;
 }
+
+console.log(somaDosNum);
 
