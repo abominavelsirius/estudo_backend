@@ -8,3 +8,6 @@ function parimpar(numero) {
 
 let resposta = parimpar(10)
 console.log(resposta)
+
+// ou só 
+console.log(parimpar(10));

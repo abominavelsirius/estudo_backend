@@ -11,3 +11,5 @@ console.log("---------------------------------------------------------------")
 console.log(`1 Ano possui ${24 * 365} horas.`);
 console.log(`Logo seriam ${8760 - 960} horas de qualquer outra coisa sem ser estudo durante o ano.`)
 console.log("---------------------------------------------------------------")
+
+let janeiro = 
