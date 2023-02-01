@@ -16,5 +16,9 @@ function exibeNomeENota(aluno) {
 
 exibeNomeENota("João")
 
-// .includes(aluno)
+// se listaDeAlunosEMedias na posição 0, que é a lista de alunos
 // vai perguntar se ele inclui o aluno que foi passado para o parametro
+// .includes(aluno)
+// e dentro desse includes vou passar o aluno (parametro)
+
+// exibeNomeENota("João") vai ver se ele tá incluso mesmo.
