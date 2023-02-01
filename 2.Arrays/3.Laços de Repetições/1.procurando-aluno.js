@@ -3,6 +3,10 @@ const medias = [10, 8, 7.5, 9];
 
 const listaDeAlunosEMedias = [alunos, medias];
 
+// .includes(aluno)
+// vai perguntar se ele inclui o aluno que foi passado para o parametro
+
+
 function exibeNomeENota(aluno) {
   if (listaDeAlunosEMedias[0].includes(aluno)) {
     const [alunos, medias] = listaDeAlunosEMedias;
