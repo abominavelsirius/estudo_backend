@@ -6,3 +6,5 @@ console.log(nomes);
 
 
 // splice = emendar
+
+// a partir  do indice 1, remova 2 itens, acrescenta "Rodrigo"

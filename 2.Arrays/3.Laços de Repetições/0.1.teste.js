@@ -9,9 +9,9 @@ const listaDeAlunosEMedias = [alunos, medias];
 function exibeNomeENota(aluno) {
   if (listaDeAlunosEMedias[0].includes(aluno)) {
     console.log(`${aluno} está cadastrado`)
-} else {
+  } else {
     console.log(`${aluno} não está cadastrado`)
-}
+  }
 }
 
 exibeNomeENota("João")
@@ -22,3 +22,9 @@ exibeNomeENota("João")
 // e dentro desse includes vou passar o aluno (parametro)
 
 // exibeNomeENota("João") vai ver se ele tá incluso mesmo.
+
+
+
+// // parâmetro
+// padrão, regra, princípio etc. por intermédio do qual se estabelece uma relação ou comparação entre termos.
+// variável de caráter secundário cuja finalidade é especificar os objetos de um conjunto ou de uma família [P.ex., na família de planos ax + by + cz + d = o ; a, b, c e d são parâmetros.].

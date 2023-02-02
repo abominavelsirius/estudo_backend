@@ -21,8 +21,8 @@ const alunos = [
   "Camilo",
 ];
 
-const sala1 = alunos.slice(0, alunos.length / 2);
-const sala2 = alunos.slice(alunos.length / 2);
+const sala1 = alunos.slice(0, alunos.length / 2); // (0, 10 / 2)
+const sala2 = alunos.slice(alunos.length / 2); // (10 / 2)
 
 console.log(sala1);
 console.log(sala2);
