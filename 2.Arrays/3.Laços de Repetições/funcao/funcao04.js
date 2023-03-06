@@ -1,8 +1,10 @@
 function maneiro(numero) {
     if (numero >= 5) {
-        return '5 horas de estudo!'
+        return 'Estudo suficiente por hoje!'
     } else {
         return 'Não foi o suficiente...'
     }
 }
-console.log(maneiro(10))
+
+
+console.log(maneiro(7))

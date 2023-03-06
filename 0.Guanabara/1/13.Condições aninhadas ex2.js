@@ -1,5 +1,5 @@
-var hora = 5
-console.log(`Agora são exataente ${hora} horas.`)
+var hora = 25
+console.log(`Agora são exatamente ${hora} horas.`)
 
 if (hora < 12 && hora >= 5) {
     console.log('Bom Dia!')

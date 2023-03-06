@@ -14,7 +14,8 @@ function exibeNomeENota(aluno) {
   }
 }
 
-exibeNomeENota("João")
+
+exibeNomeENota("Caio")
 
 // se listaDeAlunosEMedias na posição 0, que é a lista de alunos
 // vai perguntar se ele inclui o aluno que foi passado para o parametro
