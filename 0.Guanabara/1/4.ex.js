@@ -5,7 +5,7 @@ var teste = 'JavaScript'
 `Eu estou aprendendo ${teste}` // usa template String
 
 
-teste.lenght // Quantos caracteres a string tem
+teste.length // Quantos caracteres a string tem
 teste.toUpperCase() // tudo para 'MAIÚSCULAS'
 teste.toLowerCase() // tudo para 'minúsculas
 
@@ -15,6 +15,6 @@ teste.toLowerCase() // tudo para 'minúsculas
 // document.writeln = escreve na tela e pula linha
 
 var nome = window.prompt('Qual é seu nome?');
-document.write(`Olá <strong>${nome}</strong>, seu nome tem ${nome.lenght}letras <br>`);
+document.write(`Olá <strong>${nome}</strong>, seu nome tem ${nome.length}letras <br>`);
 document.write(`Seu nome em maiúsculo é ${nome.toUpperCase} <br>`);
 document.write(`Seu nome em minusculo é ${nome.toLowerCase}`);
