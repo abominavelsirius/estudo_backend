@@ -14,13 +14,7 @@ console.log('tudo bem?')
 console.log('tudo bem?')
 */
 
-image.png
 
-var c = 1
 
-while  (c <= 3) {
-    console.log(`Passo ${c}`)
-    c++ // c = c + 1
-}
 
 // ==========================
