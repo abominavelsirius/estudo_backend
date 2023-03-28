@@ -15,8 +15,9 @@
 
         <script>
 
-            var segredo = 5;
+            var segredo = Math.round(Math.random() * 10);
             var input = document.querySelector("input");
+            input.focus();
 
             function verifica() {
 
@@ -27,6 +28,9 @@
 
                     alert("Você ERROU!!!!");
                 }
+
+                input.value = ""; // vai limpar a caixinha quando recarregar
+                input.focus(); // vai levar direto pra  caixinha quando recarregar, ao invés de clicar
             }
 
             var button = document.querySelector("button");
