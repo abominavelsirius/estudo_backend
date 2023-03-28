@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+<script>
+
+    function pulaLinha() {
+
+        document.write('<br>');
+        document.write('<br>');
+
+    }
+
+    function mostra(frase) {
+
+            document.write(frase);
+            pulaLinha();
+    }
+
+
+    // mult++, significa  q ele começou com 1, aí agora ele vai pro 2
+    // aí esse 2 vai e multiplica com o número q ta pedindo ali
+
+    
+    for(let multiplicador = 1; multiplicador <= 10; multiplicador++) {
+        
+        mostra(7 * multiplicador);
+    }
+
+    // ======== diferença do while pro for ==============
+
+
+    let mult = 1;
+
+    while(mult <= 10) {
+        
+        mostra(7 * mult);
+        mult = mult + 1;
+    }
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
