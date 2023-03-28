@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+<script>
+
+    function pulaLinha() {
+
+        document.write('<br>');
+        document.write('<br>');
+
+    }
+
+    function mostra(frase) {
+
+            document.write(frase);
+            pulaLinha();
+    }
+
+    var totalFamiliares = parseInt(prompt("Quantidade de familiares?"));
+
+    var numero = 1;
+
+    var totalIdades = 0;
+
+    while(numero <= totalFamiliares) {
+
+        var idade = parseInt(prompt("Informe a idade dos familiares"));
+        totalIdades = totalIdades + idade;
+        numero++;
+    }
+
+    var mediaDasIdades = totalIdades / totalFamiliares;
+    mostra(`A média das idades dos familiares é ${mediaDasIdades}`);
+    mostra("FIM!");
+
+
+    // ==================
+
+    /*
+
+// se deixar o var totalIdades = 0 
+// ali dentro do while, ele vai zerar a contagem toda vez que for repetir
+
+// porque começa com 0
+// aí a variavel idade guarda o número q for colocado
+// esse número é somado com 0  de totalIdades e é guardado dentro de totalIdades como 10
+
+// quando repete, o totalIdades deveria ficar 10
+// aí o numero ficaria 2, recebendo outra idade, e a idade seria somada com o totalIdade que é 10
+// onde o totalIdade guardaria o 10 somado com o número colocado
+
+// mas nesse caso, dentro do while, ele vai ficar 0 de novo 
+// então é importante deixar a variavel de contagem de fora.
+    
+
+    while(numero <= totalFamiliares) {
+        var totalIdades = 0;
+        var idade = parseInt(prompt("Informe a idade dos familiares"));
+        totalIdades = totalIdades + idade;
+        numero++;
+    }
+
+    var mediaDasIdades = totalIdades / totalFamiliares;
+    mostra(`A média das idades dos familiares é ${mediaDasIdades}`);
+    mostra("FIM!");
+
+    */
+
+
+</script>
+
+
+
+</body>
+</html>
